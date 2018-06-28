@@ -13,6 +13,10 @@
   - Also, added code line (in bold) **startUserInterface()** is missing semicolon.
   - In the **Main** class there is a reference to **MainWindow** class that was not shown in the book until page 97
   
+#### page 97
+  - In the **MainWindow** class, new field appeared ` private final JLabel sniperStatus = createLabel(STATUS_JOINING);` but it is not 
+  explained where constant STATUS_JOINING comes from. The only place where it was defined before is in ApplicationRunner which is test code.
+  Assuming that this constant is also defined in **MainWindow** class.
 
 ### Compilation problems
 (Libraries taken from https://github.com/sf105/goos-code )
