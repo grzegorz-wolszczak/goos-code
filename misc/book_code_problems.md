@@ -18,6 +18,13 @@
   explained where constant STATUS_JOINING comes from. The only place where it was defined before is in ApplicationRunner which is test code.
   Assuming that this constant is also defined in **MainWindow** class.
 
+#### page 100
+  - While describing code changes authors say that they rename method `connect` to `connection` but there is no method with that name. But there is a method called `connectTo`
+
+#### page 101
+ - New code references constant **MainWindow.STATUS_LOST** that is not defined. 
+
+
 ### Compilation problems
 (Libraries taken from https://github.com/sf105/goos-code )
 WindowLicker version provided with the original goos code (provided as lib in directory lib/develop) does not support keyboard layouts other than US/GB/MAC.GB
